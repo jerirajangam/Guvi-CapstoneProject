@@ -20,7 +20,7 @@ Guvi-FinalProject
 13. Then I configered Prometheus and grafana to check the health of the instance and also set alert manager to trigger mail if the Server is Down.
 14. Finally I opened the Application using IP Address.
 
-GIT URL : https://github.com/jerirajangam/Guvi-Devops-FinalProject.git
+GIT URL : https://github.com/jerirajangam/Guvi-CapstoneProject.git
 
 Deployed Site URL : http://3.108.252.38/login 
 		http://3.108.252.38
