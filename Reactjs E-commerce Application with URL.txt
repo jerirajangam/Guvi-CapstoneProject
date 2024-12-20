@@ -23,4 +23,4 @@ Guvi-FinalProject
 GIT URL : https://github.com/jerirajangam/Guvi-Devops-FinalProject.git
 
 Deployed Site URL : http://3.108.252.38/login 
-		http://3.108.252.38/ 
+		http://3.108.252.38
