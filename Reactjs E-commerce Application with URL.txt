@@ -22,5 +22,5 @@ Guvi-FinalProject
 
 GIT URL : https://github.com/jerirajangam/Guvi-CapstoneProject.git
 
-Deployed Site URL : http://3.108.252.38/login 
-		http://3.108.252.38
+Deployed Site URL : http://3.108.252.38
+		
