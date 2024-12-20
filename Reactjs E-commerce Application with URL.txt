@@ -1,0 +1,26 @@
+Guvi-FinalProject
+==============
+1. I created an EC2 Instance in AWS names Guvi-FinalProject and installed necessary packages to run the application. 
+    Like I installed GIT, Docker, Docker-Compose, Java and Jenkins.
+2. Created a new directory and cloned the git repository that's having Reactjs Application code.
+3. Created necessary files to build and deploy the application like Dockerfile, docker-compose.yml, build.sh,
+    deploy.sh and Jenkinsfile.
+4. I build the docker image using Dockerfile and build.sh.
+5. Created 2 repositories in Dockerhub with the name dev and prod.
+6. Logged into Jenkins Server and created credentials for dockerhub and github.
+7. In Github added a new webhook so jenkins could trigger build as soon as any changes happens in the git branches.
+8. Created a MultiBranch Pipeline and entered necessary credentials like dockerhub and git credentials.
+9. I made some changes in the dev branch and pushed it to the git repository. As soon as I did it, the Jenkins multibranch pipeline got triggered and 
+    built and deployed the application. Then it pushed the image to the DockerHub dev repository.
+10. Then I switched the branch from dev to main and merged the dev branch with main and pushed it to the git repository.As soon as I did it,
+      the Jenkins multibranch pipeline got triggered and built and deployed the application. Then it pushed the image to the DockerHub Prod repository.
+11. I created an New EC2 Instance with the name Guvi-FinalProject-AWS-Instance and installed necessary packages like Docker,docker-compose, Prometheus,
+     Grafana and Node exporter.
+12. I created security group with specific access for the instance and I pulled the image from DockerHub and ran the container Application.
+13. Then I configered Prometheus and grafana to check the health of the instance and also set alert manager to trigger mail if the Server is Down.
+14. Finally I opened the Application using IP Address.
+
+GIT URL : https://github.com/jerirajangam/Guvi-Devops-FinalProject.git
+
+Deployed Site URL : http://3.108.252.38/login 
+		http://3.108.252.38/ 
